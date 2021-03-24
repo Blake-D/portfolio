@@ -11,6 +11,10 @@ marquee{
 }
 
 #blurb{
+  font-size: 3vw;
+}
+
+#about{
   font-size: 2vw;
 }
 
@@ -87,7 +91,7 @@ display: flex;
 }
 
 #skill-icon-container-1{
-padding-top: 2vh;
+padding-top: 5vh;
 padding-left: 3vw;
 display: flex;
 }
