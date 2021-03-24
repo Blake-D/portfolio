@@ -90,30 +90,9 @@ marquee{
 display: flex;
 }
 
-#skill-icon-container-1{
-padding-top: 5vh;
-padding-left: 3vw;
-display: flex;
-}
-
 .icon{
 height: 8vh;
 width: auto;
-}
-
-.icon-left{
-float: left;
-padding-left: 3vw;
-}
-
-.icon-center{
-float: left;
-padding-left: 3vw;
-}
-
-.icon-right{
-float: left;
-padding-left: 3vw;
 }
 
 #linkedIn{
