@@ -1,119 +1,117 @@
-/* switching to grid */
-
 marquee{
-    font-size: 17vw;
+  font-size: 17vw;
 }
 
 .fade-in {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
 }
 
 #blurb{
-    font-size: 2vw;
+  font-size: 2vw;
 }
-  
+
 @keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
-  
+
 @-moz-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
-  
+
 @-webkit-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
-  
+
 @-o-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
-  
+
 @-ms-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
 .float-container {
-    border: 3px solid #fff;
-    padding: 20px;
-    display: flex;
+  border: 3px solid #fff;
+  padding: 20px;
+  display: flex;
 }
 
 #left{
-    width: 49%;
-    float: left;
+  width: 49%;
+  float: left;
 } 
 
 #right{
-    width: 49%;
-    float: right;
-    text-align: justify;
+  width: 49%;
+  float: right;
+  text-align: justify;
 } 
 
 #portrait{
-    border-radius: 25px;
-    width: 75%;
-    height: auto;
+  border-radius: 25px;
+  width: 75%;
+  height: auto;
 }
 
 #icon-link-container{
-  display: flex;
+display: flex;
 }
 
 #skill-icon-container-1{
-  padding-top: 2vh;
-  padding-left: 3vw;
-  display: flex;
+padding-top: 2vh;
+padding-left: 3vw;
+display: flex;
 }
 
 .icon{
-  height: 8vh;
-  width: auto;
+height: 8vh;
+width: auto;
 }
 
 .icon-left{
-  float: left;
-  padding-left: 3vw;
+float: left;
+padding-left: 3vw;
 }
 
 .icon-center{
-  float: left;
-  padding-left: 3vw;
+float: left;
+padding-left: 3vw;
 }
 
 .icon-right{
-  float: left;
-  padding-left: 3vw;
+float: left;
+padding-left: 3vw;
 }
 
 #linkedIn{
-  padding-left: 8vw;
+padding-left: 8vw;
 }
