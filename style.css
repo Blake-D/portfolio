@@ -1,0 +1,82 @@
+marquee{
+    font-size: 15vw;
+}
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+
+#blurb{
+    font-size: 2vw;
+}
+  
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+#left{
+    width: 49%;
+    float: left;
+} 
+
+#right{
+    width: 49%;
+    float: right;
+    text-align: justify;
+} 
+
+#portrait{
+    border-radius: 25px;
+    width: 75%;
+    height: auto;
+}
