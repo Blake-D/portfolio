@@ -85,8 +85,13 @@ marquee{
 #icon-link-container{
   border: black solid;
   display: flex;
-  float: left;
-  width: 50vw;
+  /* float: left;
+  width: 50vw; */
+}
+
+#skill-icon-container-1{
+  border: solid black;
+  display: felx;
 }
 
 .icon{
