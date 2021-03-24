@@ -83,18 +83,35 @@ marquee{
 }
 
 #icon-link-container{
-  border: black solid;
   display: flex;
-  /* float: left;
-  width: 50vw; */
 }
 
 #skill-icon-container-1{
-  border: solid black;
-  display: felx;
+  padding-top: 2vh;
+  padding-left: 3vw;
+  display: flex;
 }
 
 .icon{
   height: 8vh;
   width: auto;
+}
+
+.icon-left{
+  float: left;
+  padding-left: 3vw;
+}
+
+.icon-center{
+  float: left;
+  padding-left: 3vw;
+}
+
+.icon-right{
+  float: left;
+  padding-left: 3vw;
+}
+
+#linkedIn{
+  padding-left: 8vw;
 }
