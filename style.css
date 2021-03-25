@@ -72,6 +72,7 @@ marquee{
 #left{
   width: 49%;
   float: left;
+  text-align: justify;
 } 
 
 #right{
