@@ -18,6 +18,11 @@ marquee{
   font-size: 2vw;
 }
 
+#about-left{
+  font-size: 2vw;
+  padding-right: 2vw;
+}
+
 @keyframes fadeIn {
   0% {
     opacity:0;
@@ -87,6 +92,17 @@ marquee{
   height: auto;
 }
 
+#screenshot-right{
+  width: 95%;
+  height: auto;
+}
+
+#screenshot-left{
+  width: 95%;
+  height: auto;
+  float: left;
+}
+
 #icon-link-container{
   display: flex;
 }
@@ -106,4 +122,8 @@ marquee{
 
 #osc{
   font-size: 3vw;
+}
+
+#screenshot-wrap{
+  text-align: center;
 }
