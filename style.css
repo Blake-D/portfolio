@@ -83,6 +83,12 @@ marquee{
   display: flex;
 }
 
+#games-head {
+  border: 3px solid #fff;
+  padding: 20px;
+  display: flex;
+}
+
 #about-container {
   background-image: url("ribbons.png");
   background-size: 100% auto;
