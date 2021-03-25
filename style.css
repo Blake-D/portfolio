@@ -1,5 +1,5 @@
 marquee{
-  font-size: 17vw;
+  font-size: 16vw;
 }
 
 .fade-in {
@@ -16,6 +16,10 @@ marquee{
 
 #about{
   font-size: 2vw;
+}
+
+#nav{
+  font-size: 1.5vw;
 }
 
 #about-me{
@@ -79,7 +83,7 @@ marquee{
   display: flex;
 }
 
-.about-container {
+#about-container {
   background-image: url("ribbons.png");
   background-size: 100% auto;
   border: 3px solid #fff;
@@ -148,4 +152,8 @@ marquee{
 
 #screenshot-wrap{
   text-align: center;
+}
+
+a{
+  color: black;
 }
