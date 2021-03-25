@@ -87,17 +87,25 @@ marquee{
 } 
 
 #portrait{
+  box-shadow: -10px 5px 5px gray;
   border-radius: 25px;
   width: 75%;
   height: auto;
 }
 
+#pic{
+  width: 75%;
+  height: auto;
+}
+
 #screenshot-right{
+  box-shadow: 10px 5px 5px gray;
   width: 95%;
   height: auto;
 }
 
 #screenshot-left{
+  box-shadow: -10px 5px 5px gray;
   width: 95%;
   height: auto;
   float: left;
