@@ -1,3 +1,7 @@
+body{
+  color: #4d4d4d;
+}
+
 marquee{
   font-size: 16vw;
 }
@@ -11,7 +15,7 @@ marquee{
 }
 
 #blurb{
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 #about{
@@ -23,6 +27,7 @@ marquee{
 }
 
 #about-me{
+  color: black;
   font-size: 2vw;
   padding-top: 3vh;
 }
@@ -162,4 +167,32 @@ marquee{
 
 a{
   color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.two-d{
+  font-family: 'Press Start 2P', monospace;
+}
+
+#schwifty{
+  font-family: 'GetSchwifty';
+}
+
+.eurostile{
+  font-family: 'Eurostile LT Std';
+  color: black;
+}
+
+@font-face {
+  font-family: 'GetSchwifty';
+  src: url("get_schwifty.ttf");
+}
+
+@font-face {
+  font-family: 'Eurostile LT Std';
+  src: url("EurostileLTStd-BoldEx2.otf");
 }
