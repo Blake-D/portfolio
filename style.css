@@ -86,12 +86,14 @@ marquee{
   border: 3px solid #fff;
   padding: 20px;
   display: flex;
+  padding-bottom: 15vh;
 }
 
 #games-head {
   border: 3px solid #fff;
   padding: 20px;
   display: flex;
+  padding-bottom: 15vh;
 }
 
 #about-container {
